@@ -1,0 +1,148 @@
+/* common css start */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* header start */
+header{}
+
+.wrapper{
+
+	overflow: hidden;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.logo{
+	float: left;
+	width: 15%;
+	margin-top: 20px;
+}
+.logo img{
+ 	width: 100%;
+ }
+
+.menu {
+ 	margin_top: 2px;
+ 	float: right;
+ 	width: 85%;
+ }
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+}
+.menu ul li: last-child a{
+	padding-right: 0;
+}
+
+.banner{
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	
+}
+.b_content{
+	width: 45%;
+	color: white;
+	padding: 55px 0px 55px 0px;
+}
+.b_button{
+	background-color: red;
+	padding: 10px;
+    width: 58%;
+}
+
+.service{}
+.s_content{
+	text-align: center;
+}
+
+
+.s_single{
+	float: left;
+	padding: 60px;
+}
+
+.about_us{
+background-color: #FAFAF9;
+}
+.a_content{
+	overflow: hidden;
+}
+.a_left{
+	float: left;
+    width: 50%;
+}
+.a_h2{
+	font-size: 25px;
+}
+.a_text{ font-size: 16px; }
+.a_button{
+	background-color: red;
+	padding: 10px;
+    width: 23.5%;
+}
+.a_right{
+	float: right;
+	width: 45%;
+	font-size: 55;
+	padding: 20px;
+}
+
+.a_img{
+	width: 100%;
+}
+
+
+.f_content{
+	text-align: center;
+}
+.f_h1{
+
+}
+.f_text{}
+
+.f_single{
+	float: left;
+	padding: 10px;
+	text-align: center;
+	width: 30%;
+}
+.f_button{
+	color: red;
+	text-align: center;
+
+}
+
+.contact{
+	overflow: hidden;
+	background-color:#0B0B0A;
+}
+.c_single{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	color: white;
+}
+.c_h4{
+	color: red;
+}
+
+footer{
+
+}
+.footer_text{
+	background-color:#4F5C62 ;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
